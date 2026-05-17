@@ -1,21 +1,27 @@
-I have checked the top 5 lines of the data
-SHAPE
-    Data has 9000 rows and 1 coloumns
-E.D.A 
-    I have 11 rows emtpy in "Postal Code" Column
+# 📊 Retail Sales Forecasting System
 
-CLEANING
-    I fill the data with the mode and I deleted the subset of 'Postal Code'
+An end-to-end Data Science project focused on predicting future sales trends using historical retail data, helping businesses optimize supply chains and inventory management.
 
-PRE-PROCESSING
-    Data is cleaned now, there's no empty row in 'Postal Code' column
+---
 
-VISUALIZING-DATA
-    1. Time Series Graph (Line-Chart)
-            Sales are increasing or decreasin in respect to time
-    2. Category-wise Analysis (Bar-Chart)
-            Which Category is giving us more profit
-    3. Region/City (Pie-Chart)
-        Which State/Region/City is giving us more sales 
-    4. Correlation Heatmap
-        If we are increasing the 'Discount' then profit is decreasing or increasing
+## 📌 Project Overview
+Accurate sales forecasting helps retail businesses minimize stockouts and avoid over-ordering. This project applies predictive modeling techniques to historical sales telemetry, accounting for seasonality, trends, and promotional factors. It features a complete exploratory analysis pipeline followed by model training and evaluation.
+
+## 🛠️ Tech Stack & Concepts Covered
+* **Language:** Python 3.12
+* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
+* **Core Concepts:** Time Series Analysis, Feature Engineering (Lag features, Rolling statistics), Regression Modeling
+
+## 📁 Repository Structure
+* `sales_prediction.ipynb` / `main.py`: Core pipeline for data preprocessing, trend visualization, feature creation, and model execution.
+* `sales_data.csv`: Historical transaction and revenue datasets used for training.
+
+---
+
+## 🏃‍♂️ How to Run Locally
+
+1. Clone this repository:
+```bash
+git clone [https://github.com/JaskaranSingh17bus/Sales-Forecasting-System.git](https://github.com/JaskaranSingh17bus/Sales-Forecasting-System.git)\
+pip install pandas numpy matplotlib seaborn scikit-learn
+python main.py
